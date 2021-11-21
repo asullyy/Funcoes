@@ -4,7 +4,6 @@ using std::cout;
 using std::cin;
 
 int media(int, int);
-
 int main(int argc, char const *argv[])
 {
     //Essa função calcula a média entre duas notas fornecidas pelo usuário e informa se ele foi 
