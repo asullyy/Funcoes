@@ -1,11 +1,9 @@
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::cin;
 
-int media(int nota1, int nota2){
-    int media_nota;
-    media_nota = (nota1 + nota2)/2;
-}
+int media(int, int);
 
 int main(int argc, char const *argv[])
 {
@@ -26,5 +24,9 @@ int main(int argc, char const *argv[])
     } else{
         cout<<"Voce esta aprovado, parabens :)";
     }
-    
+   
+}
+
+int media(int nota1, int nota2){
+    return (nota1 + nota2)/2;
 }

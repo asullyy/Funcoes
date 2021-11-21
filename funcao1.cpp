@@ -1,18 +1,11 @@
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::cin;
 
-int soma (int x1, int x2){
-    int soma;
-    soma = x1 + x2;
-    return soma;
-}
+int soma (int, int);
 
-int multiplicacao (int x1, int x2){
-    int mult;
-    mult = x1 * x2;
-    return mult;
-}
+int multiplicacao (int, int);
 
 int main(int argc, char const *argv[])
 {
@@ -43,4 +36,12 @@ int main(int argc, char const *argv[])
     }
     
 
+}
+
+int soma (int x1, int x2){
+    return x1 + x2;
+}
+
+int multiplicacao (int x1, int x2){
+    return x1 * x2;
 }
